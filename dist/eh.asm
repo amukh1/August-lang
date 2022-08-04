@@ -1,0 +1,7 @@
+LOAD_IMDT 06 I love programming
+OUTPUT 06 06
+LOAD_IMDT 07 programming is cool
+OUTPUT 06 07
+MATH 01 14,15
+OUTPUT 05 01
+Halt

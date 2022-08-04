@@ -63,6 +63,8 @@ function croc() {
     if((args[0].toString()).slice(2).endsWith('.aug')){
         const compiler = new Compiler(code);
         fs.writeFileSync(`./dist/${((args[0].toString()).slice(2)).slice(0, -4)}.asm`, compiler.compile());
+        const assember = new Assember(compiler.compile());
+        fs.writeFileSync(`./dist/${((args[0].toString()).slice(2)).slice(0, -4)}.bin`, assember.compile());
     }else if((args[0].toString()).slice(2).endsWith('.asm')){
         const assember = new Assember(code);
         fs.writeFileSync(`./${((args[0].toString()).slice(2)).slice(0, -4)}.bin`, assember.compile());
