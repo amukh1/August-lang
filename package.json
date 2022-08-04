@@ -1,0 +1,33 @@
+{
+  "name": "august-lang",
+  "version": "1.0.10",
+  "description": "My first complete computer language.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Language",
+    "ASM",
+    "ASSEMBLY",
+    "COMPILER"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "august": "./index.js",
+    "aug": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "decode-encode-binary": "^2.0.5",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^9.0.2",
+    "nanospinner": "^1.1.0",
+    "node-fetch": "^3.2.10"
+  }
+}
