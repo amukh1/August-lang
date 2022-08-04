@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/august-lang.svg)](https://www.npmjs.com/package/august-lang)
 
-# august-lang
+# August-lang
 
 > My first *complete* computer language.
 
