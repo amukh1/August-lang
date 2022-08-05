@@ -6,7 +6,7 @@
 
 <br>
 
-> Contact me for help, because I *will* respond. amukh1#9613
+> Contact me for help, because I *will* respond. Discord: amukh1#9613
 
 ## Prerequisites
 
