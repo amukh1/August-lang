@@ -2,7 +2,7 @@
 
 # August-lang
 
-> My first *complete* computer language.
+> My first *complete*, *compiled* computer language.
 
 <br>
 
